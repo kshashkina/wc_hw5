@@ -1,0 +1,90 @@
+.task1 {
+    background-color: #ffffff;
+    font-family: Verdana,serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Header */
+.task1 h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+/* Labels */
+.task1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+.task1 input[type="text"],
+.task1 input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+.task1 button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.task1 button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Paragraph */
+.task1 #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.listOfBooks {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: Verdana, serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.listOfBooks li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#myTable {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#myTable td {
+    border: 2px solid #cccccc;
+    padding: 10px;
+}
+
